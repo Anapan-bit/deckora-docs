@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net" modified="2026-05-11T00:00:00.000Z" agent="Claude" version="24.0.0">
+  <diagram id="as-is-jugador-deckora" name="AS-IS Jugador">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1100" math="0" shadow="0" background="#1A1A1A">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ========== MAIN FLOW ========== -->
+
+        <!-- INICIO -->
+        <mxCell id="inicio" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="205" width="110" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Jugador (actor) -->
+        <mxCell id="jugador" value="Jugador" style="shape=umlActor;verticalLabelPosition=bottom;labelPosition=center;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FFFFFF;fillColor=#1A1A1A;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="185" width="50" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1 -->
+        <mxCell id="step1" value="Jugador quiere participar en un torneo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="310" y="205" width="190" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Step 2 -->
+        <mxCell id="step2" value="Jugador quiere crear y gestionar su mazo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="190" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Step 3 -->
+        <mxCell id="step3" value="Jugador quiere inscribir su mazo para el torneo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="190" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Step 4 -->
+        <mxCell id="step4" value="Jugador finaliza el torneo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="310" y="820" width="190" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- FINAL -->
+        <mxCell id="final" value="FINAL" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="820" width="110" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ========== PROBLEM 1: Información dispersa (top right) ========== -->
+        <mxCell id="p1-panel" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660020;strokeColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-title" value="Problema: Información dispersa" style="text;html=1;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="28" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-box1" value="Búsqueda de información en redes sociales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="65" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-box2" value="Búsqueda de información en foros privados" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-box3" value="Búsqueda de información a través de contactos particulares" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="255" width="220" height="85" as="geometry" />
+        </mxCell>
+
+        <!-- ========== PROBLEM 2: No hay integración con el torneo (middle left) ========== -->
+        <mxCell id="p2-panel" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660020;strokeColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-title" value="Problema: No hay integración directa con el torneo" style="text;html=1;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="370" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-box1" value="Jugador crea su mazo en aplicaciones como Moxfield o parecidas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- ========== PROBLEM 3: Errores al inscribir el mazo (middle right) ========== -->
+        <mxCell id="p3-panel" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660020;strokeColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-title" value="Problema: Posibles errores o desorden al inscribir el mazo" style="text;html=1;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="550" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-box1" value="Jugador tiene que inscribir manualmente su mazo en una planilla facilitada por el organizador" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="600" width="260" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ========== PROBLEM 4: No existe reporte al finalizar (bottom left) ========== -->
+        <mxCell id="p4-panel" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660020;strokeColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="730" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-title" value="Problema: No existe un reporte para el jugador al finalizar el torneo" style="text;html=1;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="740" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-box1" value="Jugador no puede analizar su rendimiento" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-box2" value="Jugador no tiene acceso a las estadísticas generales del torneo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="905" width="240" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- ========== ARROWS ========== -->
+
+        <!-- INICIO -> Jugador -->
+        <mxCell id="a1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="inicio" target="jugador">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Jugador -> Step 1 -->
+        <mxCell id="a2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jugador" target="step1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1 -> Problem 1 -->
+        <mxCell id="a3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="step1" target="p1-panel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1 -> Step 2 -->
+        <mxCell id="a4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="step1" target="step2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 2 -> Problem 2 -->
+        <mxCell id="a5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="step2" target="p2-panel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 2 -> Step 3 -->
+        <mxCell id="a6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="step2" target="step3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 3 -> Problem 3 -->
+        <mxCell id="a7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="step3" target="p3-panel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 3 -> Step 4 -->
+        <mxCell id="a8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="step3" target="step4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 4 -> Problem 4 -->
+        <mxCell id="a9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="step4" target="p4-panel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Step 4 -> FINAL -->
+        <mxCell id="a10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=2;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="step4" target="final">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

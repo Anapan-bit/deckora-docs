@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" modified="2026-05-11T00:00:00.000Z" agent="Claude" version="24.0.0">
+  <diagram id="arbol-problemas-deckora" name="Árbol de Problemas">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1400" math="0" shadow="0" background="#1A1A1A">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ========== EFECTOS ========== -->
+        <mxCell id="efectos-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2E75B6;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="860" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="efectos-header" value="EFECTOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#2E75B6;fontColor=#FFFFFF;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="860" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ef1" value="Dificultad para acceder a información relevante de manera rápida y organizada" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="80" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ef2" value="Experiencia de usuario fragmentada y poco eficiente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="325" y="80" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ef3" value="Baja participación en torneos o actividades por falta de visibilidad" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="605" y="80" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ef4" value="Limitaciones en la mejora del rendimiento del jugador por falta de análisis integrado" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="185" y="220" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ef5" value="Barreras de entrada para nuevos jugadores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="465" y="220" width="250" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- ========== ARROW: Problema Central -> Efectos ========== -->
+        <mxCell id="arrow-pc-ef" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=3;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="455" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== PROBLEMA CENTRAL ========== -->
+        <mxCell id="pc-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#A6192E;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="860" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-header" value="PROBLEMA CENTRAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A6192E;strokeColor=#A6192E;fontColor=#FFFFFF;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="860" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-box" value="Fragmentación de herramientas e información dentro del ecosistema TCG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="515" width="300" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- ========== ARROW: Causas -> Problema Central ========== -->
+        <mxCell id="arrow-ca-pc" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;strokeWidth=3;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="695" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== CAUSAS ========== -->
+        <mxCell id="causas-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8C4A2F;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="700" width="860" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="causas-header" value="CAUSAS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8C4A2F;strokeColor=#8C4A2F;fontColor=#FFFFFF;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="700" width="860" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ca1" value="Uso de múltiples plataformas no integradas (redes sociales, aplicaciones específicas, herramientas manuales)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="760" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ca2" value="Falta de una solución centralizada que abarque todas las necesidades del usuario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="325" y="760" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ca3" value="Limitada visibilidad de torneos, tiendas y comunidades locales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="605" y="760" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ca4" value="Dependencia de medios informales (grupos cerrados o contactos personales)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="185" y="930" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ca5" value="Existencia de herramientas especializadas que solo cubren parte del problema (mazos, torneos o estadísticas)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="465" y="930" width="250" height="140" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

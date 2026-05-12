@@ -1,0 +1,18 @@
+# Servicios Cloud — Deckora
+
+| Capa | Servicio | Modelo | Por qué este modelo |
+|---|---|---|---|
+| Frontend hosting | **Vercel** | PaaS | Integración directa con React, despliegue automático desde Git, CDN global y SSL. No requiere administrar infraestructura. |
+| Backend API | **Render** | PaaS | Permite desplegar API en Node.js/Express sin gestionar servidores; incluye logs, escalabilidad básica y auto-deploy. |
+| Base de datos | **Supabase (PostgreSQL + pgvector)** | SaaS / PaaS | Base de datos relacional gestionada con soporte SQL y extensiones como pgvector para recomendaciones; alta disponibilidad sin mantenimiento manual. |
+| Autenticación | **Supabase Auth** | SaaS | Manejo de registro, login y sesiones con JWT integrado; reduce complejidad y mejora seguridad. |
+| Información de cartas | **Scryfall API** | SaaS | Permite obtener datos actualizados de cartas sin necesidad de mantener una base propia. |
+| Notificaciones | **EmailJS** | SaaS | Envío de correos sin backend adicional dedicado; fácil integración con frontend. |
+| IA / recomendaciones | **API de IA (Claude u otra)** | SaaS | Generación de recomendaciones y análisis sin entrenar modelos propios; acelera desarrollo. |
+
+## Justificación general
+- **Disponibilidad:** los servicios utilizados ofrecen alta disponibilidad y funcionamiento continuo en la nube.  
+- **Escalabilidad:** permiten escalar según demanda sin rediseñar la arquitectura.  
+- **Costo:** uso de free tiers, ajustado a un presupuesto académico ($0).  
+- **Velocidad de desarrollo:** uso de PaaS/SaaS evita gestión de servidores, permitiendo enfocarse en la lógica del negocio.  
+- **Mantenibilidad:** menor carga operativa al delegar infraestructura a servicios gestionados.  
